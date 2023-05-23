@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== SPLASH ===============-->
+    <div class="splash">
+      <h1 class="fade-in"> Hi </h1>
+    </div>
+
+
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">F<span>a</span>bb </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            
+            <li><a href="#about" class="nav__link">About</a></li>
+            
+            <li><a href="#services" class="nav__link">Services</a></li>
+            
+            <li><a href="traditional.html" class="nav__link">My Works</a></li>
+
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="https://www.facebook.com/totol.kamang" 
+          target="_blank" 
+          class="nav__social-link">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/fabianblake24/" 
+          target="_blank" 
+          class="nav__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+        </div>
+
+        <nav class="__btn">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk
+
+            <div class="nav__toggle" id="nav--toggle">
+              <i class="uil uil-bars"></i>
+            </div>
+          </a>
+        </nav>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to My World</span>
+            <h1 class="home__title">
+              Hi, I'm Fabian Blake <span>Artist</span> 
+            </h1>
+          </div>
+
+          <img src="assets/img/Fabian.jpg" alt="" class="home__img">
+        </div>
+      </section>
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/About 1.jpg" alt="" class="about__img">
+          
+          <div class="about__content">
+            <h2 class="section__title">Aboout Me</h2>
+
+            <p class="about__description">
+              I'm a graphic designer from Cebu City named Fabian BLake Fernandez. 
+              I've always had a thirst for new information and experiences, especially in the realm of drawing. 
+              I make the most of this quality by investing it in myself.
+              I include artwork into my layouts to show my love for it in my works. Because they inspire optimism and enjoyment, 
+              which perfectly suits my attitude, I find that I utilize bright and vivid colors a lot. I'm still willing to experiment 
+              and use my skills by producing designs that don't fit with my style.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education</span>
+            </div>
+            
+            <div class="tabs__content">
+              <div class="tabs__item  tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span >Traditional Drawing</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Photography</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Adobe CAD / Ps / Ai / Ae / Lr</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Freelancer for 8 years</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span></span>
+                  </p>
+                  <p class="tabs__description">
+                    <span></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>YLAC FREE SCHOOL - Elementary school</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Cebu Institute of Technology - University (CIT) - Highschool</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Cebu Technological University (CTU) - College (ongoing)</span>
+                  </p>
+                </div>
+              </div>
+
+            
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Awesome Service</h2>
+        <p class="section__description">To give real service you must add something which 
+          cannot be bought or measured with money, and that is sincerity and integrity.
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item ">
+            <i class="uil uil-pen services__icon"></i>
+
+            <h3 class="services__title">Traditional Drawing & Painting</h3>
+            <p class="services__description">"Art is to console those who are broken by life." <p>- Vincent van Gogh</p>
+            </p>
+          </div>
+
+          <div class="services__item ">
+            <i class="uil uil-monitor services__icon"></i>
+
+            <h3 class="services__title">Digital Painting</h3>
+            <p class="services__description">"Art doesn't have to be pretty. It has to be meaningful."
+              <p>- Duane Hanson</p>
+            </p>
+          </div>
+
+          <div class="services__item ">
+            <i class="uil uil-camera services__icon"></i>
+
+            <h3 class="services__title">Photography</h3>
+            <p class="services__description">"For me, the camera is a sketchbook, an instrument of intuition and spontaneity."
+              <p>- Henri Cartier-Bresson</p>
+            </p>
+          </div>   
+          
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container containter grid">
+          <div class="contact __content">
+            <h2 class="section__title">Hire Me</h2>
+
+            <p class="contact__description">
+              I am availabe for freelance work. Connect with me vio phone:
+              <a href="tel:+09692202989">096922029989</a> or email: 
+              <a href="mailto:ffblake24@gmail.com">ffblake24@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" 
+                name="name"
+                placeholder="Your Name *" 
+                class="contact__input"
+                id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email" 
+                name="email" 
+                placeholder="Your e-mail" 
+                class="contact__input"
+                id="contact-email"
+                />
+              </div> 
+
+              <div class="contact__form-input">
+                <input type="text" 
+                name="subject" 
+                placeholder="Write a Subject" 
+                class="contact__input"
+                id="contact-subject"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn" />
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/Fabian.jpg" alt="" class="contact__img" />
+        </div>
+      </section> 
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">F<span>a</span>bb</a>
+
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/totol.kamang" 
+          target="_blank" 
+          class="footer__social-link">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/fabianblake24/" 
+          target="_blank" 
+          class="footer__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+        </div>
+
+        <p class="footer__copyright"> &copy; 2023. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" 
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
